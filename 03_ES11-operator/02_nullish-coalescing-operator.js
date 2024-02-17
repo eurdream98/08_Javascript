@@ -8,5 +8,6 @@ console.log(test);
 //단, 빈 문자열과 같은 Falsy값을 false로 취급해서 새기는 문제가 있다.
 var val = ''||'기본값';
 console.log(val);
+
 var val2 = 'd'??'기본값';
 console.log(val2);
