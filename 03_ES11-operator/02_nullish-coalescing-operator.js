@@ -7,6 +7,7 @@ console.log(test);
 //null 병합 연산자 이전에는 논리연산자 ||를 이용한 단축 평가 활용
 //단, 빈 문자열과 같은 Falsy값을 false로 취급해서 새기는 문제가 있다.
 var val = ''||'기본값';
+
 console.log(val);
 
 var val2 = 'd'??'기본값';
