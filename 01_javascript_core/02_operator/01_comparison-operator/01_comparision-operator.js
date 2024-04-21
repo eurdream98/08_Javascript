@@ -27,6 +27,7 @@ console.log(`NaN===NaN : ${NaN===NaN}`);
 //빌트인 함수 Number.isNaN을 사용해서 확인해야 한다.
 console.log(`Number.inNaN(NaN):${Number.isNaN(NaN)}`);
 
+
 // 비교 연산자를 통해 문자열끼리 비교도 가능하며 유니코드 순으로 비교한다.
 
 //일치 비교 연산자
